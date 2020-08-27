@@ -22,11 +22,11 @@ def line(array)
   end
 end
 
-def take_a_number(array, name)
-  array.push(name)
-  index = array.length
-  puts "Welcome, #{name}. You are number #{index} in line."
-end
+# def take_a_number(array, name)
+#   array.push(name)
+#   index = array.length
+#   puts "Welcome, #{name}. You are number #{index} in line."
+# end
 
 def now_serving(array)
   if array.length != 0 
