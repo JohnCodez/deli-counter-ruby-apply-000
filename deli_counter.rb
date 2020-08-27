@@ -28,6 +28,13 @@ end
 #   puts "Welcome, #{name}. You are number #{index} in line."
 # end
 
+counter = 0
+def take_a_number(array)
+  counter += 1
+  katz_deli.push(counter)
+  puts "Welcome, you are number #{counter}"
+end
+
 def now_serving(array)
   if array.length != 0 
     puts "Currently serving #{array[0]}."
